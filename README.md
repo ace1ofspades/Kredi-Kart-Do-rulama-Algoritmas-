@@ -2,7 +2,7 @@
   Kart sahibi verilerini keşfetme projeleriyle uğraşırken, genellikle bir kredi kartının anatomisi, PAN numarası, BIN aralıkları ve Luhn çekleri gibi şeyler hakkında birçok soru alırız. Bazı açıklamaların gerekli olduğunu düşündük, bu nedenle aşağıda bir PAN numarasının neyden yapıldığını, BIN aralıklarının neyi ifade ettiğini ve bir kredi kartını kalem ve kağıt kullanarak doğrulamak için Luhn algoritmasını (Mod 10 olarak da bilinir) nasıl kullanabileceğinizi açıklayacağız.
 
 ### Kredi Kartı Anatomisi:
-###### Bir kredi kartı numarası, örneğin 1234567812345678, 3 bölümden oluşur:
+##### Bir kredi kartı numarası, örneğin 1234567812345678, 3 bölümden oluşur:
 
   > - Banka Numarası(BIN):  İlk 6 hane, banka kimlik numarası (BIN) veya düzenleyici kimlik numarasıdır (IIN). Bu sayı dizisi, kartı vereni tanımlar.
   > - Hesap Numarası: Banka kimlik numarası ile kontrol hanesi arasındaki numara 6 ila 9 hane uzunluğundadır ve bireysel hesap numarasını tanımlamak için kullanılır.
@@ -34,7 +34,7 @@ Visa Electron                4026|417500|4508|4844|4913|4917                 16
   Mod 10 hesaplaması olarak da bilinen LUHN algoritması, birincil hesap numaralarını doğrulamak için kullanılabilir.
 
 #### Nasıl Çalışır?
-######## Luhn algoritmasını elle hesaplamak birkaç farklı adımı içerir:
+##### Luhn algoritmasını elle hesaplamak birkaç farklı adımı içerir:
   1. Kredi kartı numarasını yazın:
     > 4417 1234 5678 9113
   2. İlk sayıdan başlayarak, her basamağı ikiye katlayın.
