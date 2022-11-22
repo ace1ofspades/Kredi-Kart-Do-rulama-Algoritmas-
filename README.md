@@ -35,13 +35,13 @@ Visa Electron                4026|417500|4508|4844|4913|4917                 16
 
 #### Nasıl Çalışır?
 ##### Luhn algoritmasını elle hesaplamak birkaç farklı adımı içerir:
-  1. Kredi kartı numarasını yazın:
+  1. Kredi kartı numarasını yazın
     > 4417 1234 5678 9113
-  2. İlk sayıdan başlayarak, her basamağı ikiye katlayın:
+  2. İlk sayıdan başlayarak, her basamağı ikiye katlayın
     > 4(x2) 4 1(x2) 7 1(x2) 2 3(x2) 4 5(x2) 6 7(x2) 8 9(x2) 1 1(x2) 3
     > Çift sayılar sonucu: 8 2 2 6 10 14 18 2
-  3. İkiye katlamanın sonucu iki basamakla bitiyorsa, bu iki basamağı toplayın:
+  3. İkiye katlamanın sonucu iki basamakla bitiyorsa, bu iki basamağı toplayın
     > 10 = 1+0 14= 1+4 18= 1+8
-  4. tüm sayıları topla: 
+  4. tüm sayıları topla
     > 8+4+2+7 + 2+2+6+4 + 1+0+6+1+4+8 + 1+8+1+2+3 = 70
 Son tutar 10'a bölünebiliyorsa, kredi kartı geçerlidir. 10'a bölünemiyorsa sayı geçersiz veya sahtedir. Yukarıdaki örnekte 4417 1234 5678 9113 numaralı kredi kartı Luhn testinden geçmiştir.
