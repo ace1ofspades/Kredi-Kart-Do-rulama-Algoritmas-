@@ -1,6 +1,4 @@
 ## Kredi Kartı Anatomisi Ve Luhn Algoritması
-  Kart sahibi verilerini keşfetme projeleriyle uğraşırken, genellikle bir kredi kartının anatomisi, PAN numarası, BIN aralıkları ve Luhn çekleri gibi şeyler hakkında birçok soru alırız. Bazı açıklamaların gerekli olduğunu düşündük, bu nedenle aşağıda bir PAN numarasının neyden yapıldığını, BIN aralıklarının neyi ifade ettiğini ve bir kredi kartını kalem ve kağıt kullanarak doğrulamak için Luhn algoritmasını (Mod 10 olarak da bilinir) nasıl kullanabileceğinizi açıklayacağız.
-
 ### Kredi Kartı Anatomisi:
 ##### Bir kredi kartı numarası, örneğin 1234567812345678, 3 bölümden oluşur:
 
