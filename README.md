@@ -44,4 +44,5 @@ Visa Electron                4026|417500|4508|4844|4913|4917                 16
   > 10 = 1+0 14= 1+4 18= 1+8
   4. tüm sayıları topla
   > 8+4+2+7 + 2+2+6+4 + 1+0+6+1+4+8 + 1+8+1+2+3 = 70
+  
 Son tutar 10'a bölünebiliyorsa, kredi kartı geçerlidir. 10'a bölünemiyorsa sayı geçersiz veya sahtedir. Yukarıdaki örnekte 4417 1234 5678 9113 numaralı kredi kartı Luhn testinden geçmiştir.
